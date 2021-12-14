@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'Work Sans' , sans-serif;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+img{
+	max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+}
+
+ul,ol{
+	margin:0px;
+	padding:0px;
+}
+
+h2{
+	color:$text-main;
+	font-family:Raleway;
+	font-weight:700;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	font-family:Raleway;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.head-01{
+	margin:20px 0px;
+	text-align:center;
+}

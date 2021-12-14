@@ -1,0 +1,132 @@
+/* IE */
+
+.breadcrumb-3 li,
+ ::-ms-backdrop,
+.breadcrumb-4 li,
+ ::-ms-backdrop,
+.breadcrumb-1 li,
+ ::-ms-backdrop,
+.breadcrumb-2 li,
+ ::-ms-backdrop {
+	display: inline-block;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	 ::-ms-backdrop,
+	.item-card9-img {
+		height: inherit !important;
+	}
+	 ::-ms-backdrop,
+	.item-card9-imgs {
+		height: 100% !important;
+	}
+}
+
+@media (min-width: 991px) {
+	*::-ms-backdrop,
+	.map-content-width .item-card9-imgs {
+		height: 197px !important;
+	}
+	*::-ms-backdrop,
+	.map-content-width .item-card9-imgs img {
+		height: 100% !important;
+		width: auto !important;
+	}
+	*::-ms-backdrop,
+	.map-content-width.card .item-card9-imgs img {
+		height: 197px;
+	}
+	 ::-ms-backdrop,
+	.tab-content #tab-11 .item-card9-imgs img {
+		height: 240px !important;
+	}
+}
+
+@media (max-width: 992px) {
+	*::-ms-backdrop,
+	.horizontal-megamenu .megamenu-content .link-list {
+		display: inline-table !important;
+	}
+	*::-ms-backdrop,
+	.map-content-width .item-card9-imgs img {
+		width: 100% !important;
+	}
+	*::-ms-backdrop,
+	.map-img {
+		height: 197px;
+	}
+	 ::-ms-backdrop,
+	.tab-content #tab-11 .item-card9-imgs img {
+		height: auto;
+	}
+}
+
+*::-ms-backdrop,
+.label {
+	display: inline-block !important;
+}
+
+*::-ms-backdrop,
+.d-list .card {
+	width: inherit !important;
+}
+
+*::-ms-backdrop,
+.full-screen-link.icon.nav-link {
+	display: none;
+}
+
+*::-ms-backdrop,
+.page-header {
+	height: 50px;
+}
+
+*::-ms-backdrop,
+.footer-main .form-control {
+	border: 0 !important;
+}
+
+*::-ms-backdrop,
+.card-over .item-card-desc {
+	height: 100%;
+}
+
+*::-ms-backdrop,
+.shop-card img,
+*::-ms-backdrop,
+.card-img-top {
+	height: 200px;
+}
+
+.manged-ad {
+	.media-body,
+	.media-left,
+	.media-right {
+		display: ruby-text-container;
+	}
+}
+
+::-ms-backdrop {
+	display: ruby-text-container;
+}
+
+*::-ms-backdrop, #profile-log-switch .table-responsive .table tbody {
+	display: block !important;
+
+}
+*::-ms-backdrop, .ht-100 {
+	height: 100% !important;
+}
+*::-ms-backdrop, .construction-image1 {
+	height: 100vh;
+}
+*::-ms-backdrop, .construction-image1 .page{
+	height: 100%;
+}
+*::-ms-backdrop,.about-1 .counter-icon{
+	padding:0;
+}
+*::-ms-backdrop,.about-1 .info .counter-icon i{
+	line-height:4rem !important;
+}

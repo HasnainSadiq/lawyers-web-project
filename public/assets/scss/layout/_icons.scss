@@ -1,0 +1,122 @@
+.icon-absolute {
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	right: 10px;
+	padding: 20px 0;
+	text-align: center;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+	.icon-absolute {
+		display: none;
+	}
+}
+
+.icons-list {
+	list-style: none;
+	margin: 0 -1px -1px 0;
+	padding: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	>li {
+		-ms-flex: 1 0 4rem;
+		flex: 1 0 4rem;
+	}
+}
+
+.icons-list-wrap {
+	overflow: hidden;
+	border-right: 1px solid #e8ebf3;
+	border-top: 1px solid #e8ebf3;
+}
+
+.icons-list-item {
+	text-align: center;
+	height: 4rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-bottom: 1px solid #eaebf7;
+	border-left: 1px solid #eaebf7;
+	i {
+		font-size: 1.25rem;
+		color: #676a80;
+	}
+}
+
+.icon-card {
+	display: inline-block;
+	li {
+		float: left;
+		font-size: 13px;
+		width: 50%;
+		margin-bottom: .5rem;
+	}
+}
+
+.icon-service1 {
+	display: inline-flex;
+	width: 4rem;
+	height: 4rem;
+	padding: 1.3rem 1.4rem;
+	border-radius: 50%;
+	text-align: center;
+	i {
+		font-size: 1.2rem;
+	}
+}
+
+.icon-service2 {
+	display: inline-flex;
+	width: 3.3rem;
+	height: 3.3rem;
+	padding: 0.5rem 0.8rem;
+	border-radius: 50%;
+	text-align: center;
+	i {
+		font-size: 25px;
+	}
+}
+
+.icon-service3 {
+	display: inline-flex;
+	width: 6rem;
+	height: 6rem;
+	padding: 1.8rem 1.8rem;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.icon-primary {
+	background-color: rgba(236, 41, 107, 0.1);
+	color: #ec296b;
+}
+
+.icon-secondary {
+	background-color: rgba(54, 42, 232, 0.1);
+	color: #362ae8;
+}
+
+.icon-success {
+	background-color: rgba(33, 182, 50, 0.13);
+	color: $success;
+}
+
+.icon-warning {
+	background-color: rgba(249, 167, 63, 0.2);
+	color: $yellow;
+}
+
+.icons-works {
+	width: 60px;
+	height: 60px;
+}

@@ -1,0 +1,309 @@
+.footer {
+	background: $white;
+	border-top: 1px solid #dbddf1;
+	font-size: .875rem;
+	padding: 1.25rem 0;
+	color: #636d8c;
+  
+	.social {
+	  ul li {
+		float: left;
+		padding: 7px;
+  
+		a {
+		  color: #636d8c;
+		}
+	  }
+  
+	  margin: 0 auto;
+	}
+  
+	a:not(.btn) {
+	  color: #1f252d;
+	}
+  }
+  
+  @media print {
+	.footer {
+	  display: none;
+	}
+  }
+  
+  #footer, .fc-toolbar .ui-button, .fileinput .thumbnail {
+	text-align: center;
+  }
+  
+  .four-zero {
+	text-align: center;
+  
+	footer > a {
+	  text-align: center;
+	}
+  }
+  
+  .ie-warning, .login-content, .login-navigation {
+	text-align: center;
+  }
+  
+  .pt-inner {
+	text-align: center;
+  
+	.pti-footer > a {
+	  text-align: center;
+	}
+  }
+  
+  .footer-main {
+	.social li {
+	  float: left;
+	  margin-right: 15px;
+	  display: inline-block;
+	  list-style: none;
+	  font-size: 20px;
+  
+	  a {
+		color: #636d8c;
+		line-height: 0;
+	  }
+	}
+  
+	.payments li {
+	  float: left;
+	  margin-right: 15px;
+	  display: inline-block;
+	  list-style: none;
+	  font-size: 20px;
+  
+	  a {
+		color: $white-6;
+		line-height: 0;
+	  }
+	}
+  
+	h6 {
+	  font-size: 18px;
+	  margin-bottom: 0.8rem;
+	}
+  }
+  
+  footer .border-bottom {
+	border-bottom: 1px solid $white-2 !important;
+  }
+  
+  .footer-main {
+	p {
+	  color: $white-7;
+	}
+  
+	a {
+	  line-height: 2;
+	  transition: opacity .2s;
+	  color: $white-7;
+	}
+  
+	&.footer-main1 {
+	  a {
+		color: #2e384d;
+	  }
+  
+	  .form-control {
+		border: 1px solid #eaebf7 !important;
+	  }
+	}
+  }
+  
+  .footer-links a {
+	color: $white-8;
+  
+	&:before {
+	  content: '\e049';
+	  margin-right: 5px;
+	  position: relative;
+	  font-family: 'typicons' !important;
+	  opacity: 0.5;
+	}
+  
+	&:hover {
+	  text-decoration: none;
+	}
+  }
+  
+  .footer-style2 {
+	.border-bottom.bg-light {
+	  border-bottom: 1px solid #dbddf1 !important;
+	}
+  
+	.footer-main.footer-main1 .contact-footer li {
+	  i {
+		background: #eeeff9;
+		border-radius: 3px;
+		width: 25px;
+		height: 25px;
+		text-align: center;
+		line-height: 2;
+		top: 0;
+	  }
+  
+	  padding-left: 40px;
+	  margin-bottom: 1.2rem;
+	}
+  }
+  
+  .footer-main {
+	&.footer-main1 .footer-payments a:hover {
+	  color: $black-7;
+	}
+  
+	.footer-payments a:hover {
+	  color: $white-6;
+	}
+  
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-top: 1px solid $white-1;
+	border-bottom: 1px solid $white-08;
+  }
+  
+  @media (max-width: 992px) {
+	.footer-main h6 {
+	  margin-top: 2rem;
+	}
+  
+	footer.bg-dark {
+	  .text-left {
+		text-align: center !important;
+	  }
+  
+	  .social {
+		li {
+		  float: none;
+		  text-align: center;
+		}
+  
+		text-align: center;
+	  }
+	}
+  
+	.footer-main .row div:first-child h6 {
+	  margin-top: 0;
+	}
+  }
+  
+  footer .border-top {
+	border-top: 1px solid rgba(255, 255, 255, 0.02) !important;
+  }
+  
+  .footer-main .form-control {
+	border: 0 !important;
+  }
+  
+  .footer-payments {
+	padding-left: 0;
+	list-style: none;
+	margin: 0;
+	line-height: 1.25rem;
+  
+	li {
+	  display: inline-block;
+	  padding: 0 11px;
+	  font-size: 20px;
+	}
+  }
+  
+  .footer-main img {
+	width: 80px;
+	border: 1px solid $white-1;
+	padding: 2px;
+  }
+  
+  .footer-bgimg {
+	background: url(../images/media/bg.jpg);
+	background-size: cover;
+	width: 100%;
+  
+	&:before {
+	  content: '';
+	  display: block;
+	  position: absolute;
+	  background: rgba(5, 3, 33, 0.78);
+	  width: 100%;
+	  height: 100%;
+	  right: 0;
+	  top: 0;
+	}
+  
+	.footer-main.border-bottom.footer-style4.border-bottom {
+	  border-bottom: 1px solid $white-6 !important;
+	}
+  }
+  
+  .footerimg-logo {
+	margin-left: -10px;
+  }
+  
+  .footer-style4 .contact-footer li {
+	i {
+	  padding: 6px;
+	  background: $white-05;
+	  border-radius: 3px;
+	  top: 0 !important;
+	}
+  
+	padding-left: 35px !important;
+	margin-bottom: 1rem !important;
+  
+	&:last-child {
+	  margin-bottom: 0 !important;
+	}
+  }
+  
+  .footer-main {
+	.contact-footer li {
+	  position: relative;
+	  display: block;
+	  padding-left: 25px;
+	  margin-bottom: 0.8rem;
+  
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+  
+	  i {
+		position: absolute;
+		left: 0;
+		top: 5px;
+	  }
+	}
+  
+	.footer-conatct li {
+	  margin-bottom: 0.5rem;
+	  padding-left: 2.3rem;
+  
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+  
+	  i {
+		padding: 6px;
+		background: rgb(44, 42, 74);
+		border-radius: 3px;
+	  }
+	}
+  }
+  
+  .footer-img {
+	background: url(../images/banners/b1.jpg);
+	background-size: cover;
+	position: relative;
+  
+	&:before {
+	  content: '';
+	  display: block;
+	  position: absolute;
+	  background: rgba(20, 18, 53, 0.5);
+	  width: 100%;
+	  height: 100%;
+	  right: 0;
+	  top: 0;
+	}
+  }

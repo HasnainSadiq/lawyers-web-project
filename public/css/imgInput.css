@@ -1,0 +1,40 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 150px;
+    height: auto;
+}
+.imgContainer{
+    display: block;
+    width: 100%;
+  
+    align-content: center;
+    padding-bottom: 0;
+}
+#imgBox{
+    width: 80%;
+    height: 100px;
+    background-color: burlywood;
+    box-sizing: border-box;
+}
+.py-12{
+    background-color: blueviolet;
+}

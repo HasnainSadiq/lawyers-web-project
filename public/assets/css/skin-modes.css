@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------
+[Skin Modes Styles]
+
+Project        :   Templist - HTML5 Premium Digital goods marketplace directory jquery css responsive website Template
+Version        :   V.1
+Create Date    :   28/02/20
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   SprukoSoft
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support		   :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+/*Color variables*/
+/*white variables*/
+/*black variables*/
+/*--- Header-Style1 ---*/
+.headerstyle1 .header-search {
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #e6e7f5;
+}
+
+.headerstyle1 .header-brand-img {
+    display: none;
+}
+
+.headerstyle1 .header-white {
+    display: block;
+}
+
+.headerstyle1 .header-style-2 .header-search-logo .header-white {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headerstyle1 .header-search .header-icons .header-icons-link li a {
+    background: #f5f6fd;
+    border: 1px solid #eaebf7;
+    box-shadow: 0 5px 10px rgba(245, 246, 253, 0.5);
+}
+
+.headerstyle1 .top-bar {
+    background: #f5f6fd;
+    position: relative;
+    border-bottom: 1px solid #e6e7f5;
+}
+
+.headerstyle1 .top-bar-right span,
+.headerstyle1 .top-bar-left span {
+    color: #2e384d;
+}
+
+.headerstyle1 .top-bar .contact i {
+    color: #2e384d !important;
+}
+
+.headerstyle1 .top-bar .contact i .text-white.ml-1 {
+    color: #2e384d !important;
+}
+
+.headerstyle1 .top-bar-left .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #2e384d transparent transparent transparent;
+}
+
+.headerstyle1 .header-main i {
+    color: #a0a6d2;
+}
+
+.headerstyle1 .horizontal-header i {
+    color: #fff;
+}
+
+.headerstyle1 .header-icons-link .header-icons-link1 i {
+    color: #566580;
+}
+
+/*--- Header-Style2 ---*/
+.headerstyle2 .header-search {
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #e6e7f5;
+}
+
+.headerstyle2 .header-brand-img {
+    display: none;
+}
+
+.headerstyle2 .header-white {
+    display: block;
+}
+
+.headerstyle2 .header-search .header-icons .header-icons-link li a {
+    background: transparent;
+    border: 1px solid #e6e7f5;
+}
+
+.headerstyle2 .top-bar {
+    background: #000;
+    position: relative;
+    border-bottom: 1px solid #e6e7f5;
+}
+
+.headerstyle2 .top-bar .top-bar-left .socials li {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle2 .top-bar .top-bar-left .contact li {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle2 .top-bar .top-bar-left .contact li:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle2 .header-main .top-bar-right .custom li {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle2 .header-main .top-bar-right .custom li:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle2 .top-bar-right span,
+.headerstyle2 .top-bar-left span {
+    color: #fff;
+}
+
+.headerstyle2 .top-bar .contact i {
+    color: #fff !important;
+}
+
+.headerstyle2 .top-bar .contact i .text-white.ml-1 {
+    color: #fff !important;
+}
+
+.headerstyle2 .top-bar-left .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent;
+}
+
+.headerstyle2 .header-main .header-search-icon i,
+.headerstyle2 .header-icons-link .header-icons-link1 i {
+    color: #566580;
+}
+
+/*--- Header-Style3 ---*/
+.headerstyle3 .header-search {
+    background: none;
+    position: inherit;
+}
+
+.headerstyle3 .header-brand-img {
+    display: block;
+}
+
+.headerstyle3 .header-white {
+    display: none;
+}
+
+.headerstyle3 .header-search .header-icons .header-icons-link li a {
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+
+.headerstyle3 .top-bar {
+    border-bottom: 1px solid white;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.headerstyle3 .top-bar-right span,
+.headerstyle3 .top-bar-left span {
+    color: #fff;
+}
+
+.headerstyle3 .top-bar .contact i {
+    color: #fff !important;
+}
+
+.headerstyle3 .top-bar .contact i.text-white {
+    color: #fff !important;
+}
+
+.headerstyle3 .top-bar-left .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent;
+}
+
+.headerstyle3 .header-main {
+    background: transparent;
+}
+
+.headerstyle3 .header-icons .nav-link.icon {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.headerstyle3 .header-search .header-search-logo {
+    z-index: 1;
+}
+
+.headerstyle3 .header-icons .nav-link.icon i {
+    color: #fff;
+}
+
+.headerstyle3 .desktoplogo .header-white {
+    display: block;
+}
+
+.headerstyle3 .top-bar .top-bar-left .socials li {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle3 .top-bar .top-bar-left .contact li {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle3 .top-bar .top-bar-left .contact li:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle3 .header-main .top-bar-right .custom li {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerstyle3 .header-main .top-bar-right .custom li:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*--- Horizontal-menu Style1 ---*/
+@media (min-width: 992px) {
+    .menu-style1 .horizontal-main {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-style1 .horizontalMenu>.horizontalMenu-list>li>a {
+        color: #fff;
+    }
+
+    .menu-style1 .is-sticky .horizontalMenu>.horizontalMenu-list>li>a {
+        color: #0a1f44;
+    }
+
+    .menu-style1 .desktoplogo .header-white {
+        display: none;
+    }
+
+    .menu-style1 .desktoplogo .header-brand-img1 {
+        display: block;
+    }
+
+    .menu-style1 .second-horizontal-tabs {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-style1 .sticky-wrapper.is-sticky .second-horizontal-tabs {
+        background: #f4f4fb;
+    }
+}
+
+/*--- Horizontal-menu Style2 ---*/
+@media (min-width: 992px) {
+    .menu-style2 .horizontal-main {
+        background: #161635;
+    }
+
+    .menu-style2 .horizontalMenu>.horizontalMenu-list>li>a {
+        color: #fff;
+    }
+
+    .menu-style2 .is-sticky .horizontalMenu>.horizontalMenu-list>li>a {
+        color: #0a1f44;
+    }
+
+    .menu-style2 .desktoplogo .header-white {
+        display: none;
+    }
+
+    .menu-style2 .desktoplogo .header-brand-img1 {
+        display: block;
+    }
+
+    .menu-style2 .second-horizontal-tabs {
+        background: #161635;
+    }
+
+    .menu-style2 .sticky-wrapper.is-sticky .second-horizontal-tabs {
+        background: #f4f4fb;
+    }
+}
+
+/*# sourceMappingURL=skin-modes.css.map */

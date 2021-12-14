@@ -1,0 +1,54 @@
+footer{
+	._kl_de_w{
+		.form-group{
+			a{
+				text-align: left;
+				padding:10px 15px;
+				border-radius:4px;
+				background:$icon-color;
+				color:$text-primary;
+				font-size:15px;
+				display:inline-block;
+			}
+		}
+		ol{
+			.last{
+					border-bottom:1px solid #333333;
+				}
+			li{
+				i{
+					margin-right:12px;
+				}
+				@media screen and(max-width:768px){
+					margin:0px;
+				}
+				display:block;
+				margin:0 25px 0 0;
+				padding:10px 0px;
+				border-top:1px solid #333333;
+				color:#9a9a9a;
+				font-size:15px;
+			}
+		}
+		p{
+			font-size:15px;
+			line-height:26px;
+			color:#999;
+		}
+		h3{
+			font-size:20px;
+			margin:0 0 20px 0;
+		}
+		margin:20px 0px;
+		padding:10px 0px;
+		color:$text-primary;
+		position:relative;
+	}
+	padding:40px 0px;
+	background:url(../images/footer-bg.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	background-size:cover;
+	background-position:center;
+	overflow:hidden;
+}
